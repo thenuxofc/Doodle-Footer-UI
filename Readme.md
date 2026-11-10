@@ -22,6 +22,7 @@ Their eyes follow your cursor. Every line boils. Every doodle drifts.
 <a href="#component-preview"><img src="https://img.shields.io/badge/PREVIEW-ff6600?style=flat-square&labelColor=0a0a0d" alt="Preview" /></a>
 <a href="#core-features"><img src="https://img.shields.io/badge/FEATURES-ff6600?style=flat-square&labelColor=0a0a0d" alt="Features" /></a>
 <a href="#meet-the-crew"><img src="https://img.shields.io/badge/CREW-ff6600?style=flat-square&labelColor=0a0a0d" alt="Crew" /></a>
+<a href="#how-to-use--ai-prompt"><img src="https://img.shields.io/badge/AI%20PROMPT-ff6600?style=flat-square&labelColor=0a0a0d" alt="Prompt" /></a>
 <a href="#installation"><img src="https://img.shields.io/badge/INSTALL-ff6600?style=flat-square&labelColor=0a0a0d" alt="Install" /></a>
 <a href="#quick-start"><img src="https://img.shields.io/badge/QUICK%20START-ff6600?style=flat-square&labelColor=0a0a0d" alt="Quick start" /></a>
 <a href="#props-reference"><img src="https://img.shields.io/badge/PROPS-ff6600?style=flat-square&labelColor=0a0a0d" alt="Props" /></a>
@@ -104,9 +105,27 @@ Their eyes follow your cursor. Every line boils. Every doodle drifts.
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
+## How to Use & AI Prompt
+
+You can generate and install this component immediately into any React, Next.js, or Vite project using our pre-built AI prompt file:
+
+### 1. Copy the Prompt
+Open the [**`Prompt`**](https://github.com/thenuxofc/Doodle-Footer-UI/blob/main/Prompt) file and copy its entire text without modifying anything.
+
+### 2. Paste into Your AI Coding Assistant
+Paste the prompt into your AI assistant (**Cursor**, **ChatGPT**, **Claude**, **v0**, **Gemini**, or **Copilot**):
+
+> **Tip:** You can ask your AI to keep **THENUX** default credits or replace the wordmark and brand with your own preferred name:
+>
+> *"Integrate this component into my project. Keep the default THENUX styling and credits, but set the wordmark to `[YOUR_BRAND_NAME]` and update the links to point to my site."*
+
+Your AI will instantly create the component in `/components/ui/doodle-crew-footer.tsx` and set up the required Tailwind styles automatically.
+
+<img src="./assets/divider.svg" alt="" width="100%" />
+
 ## Installation
 
-Copy the component from [`Footerprompt.md`](./Footerprompt.md) into your UI components directory:
+If you prefer manual integration, copy the component code from the [**`Prompt`**](https://github.com/thenuxofc/Doodle-Footer-UI/blob/main/Prompt) file into your project:
 
 ```bash
 # Recommended shadcn path
